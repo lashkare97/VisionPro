@@ -75,7 +75,7 @@ python LIFT_Pipeline_Cleaned.py
 
 ---
 
-## 🔍 Output & Logs
+## Output & Logs
 
 - Transformed images saved in their respective folders
 - Composite images represent the maximum value from edge filters
@@ -85,20 +85,10 @@ python LIFT_Pipeline_Cleaned.py
 
 ---
 
-## 🧠 Techniques Used
+## Techniques Used
 
 - **OpenCV** for image processing and filters
 - **SIFT (Scale-Invariant Feature Transform)** for feature detection
 - **FLANN (Fast Library for Approximate Nearest Neighbors)** for matching
 - **NumPy** and **PIL** for matrix operations and metadata
-
----
-
-## 📌 Notes
-
-- Ensure your test image exists and is correctly named
-- You can visualize matches by extending the code to draw `cv2.drawMatches()`
-- Composite merging uses `np.maximum()` for feature enhancement
-
----
 
